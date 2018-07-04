@@ -1,0 +1,162 @@
+body, html {
+	background: #e9eaed !important;
+}
+
+td div {
+	display: inline-block;
+}
+
+#uni_header {
+	text-align: center;
+	font-weight: 300;
+	line-height: 1.75em;
+	font-size: 3.5em;
+}
+
+#first_header {
+	padding-top: 0.75rem;
+	margin-top: 0;
+}
+
+.del_info_header {
+	background-color: #f6f7f8;
+	border: #e9eaed solid 1px;
+    font-size: 0.9em;
+    padding: 0.75rem 2rem;
+    
+	/* margin: 1rem 0; */
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    color: #898f9c;
+}
+
+.item_content {
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.tab-pane {
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+#subheader {
+	font-size: 2em;
+	font-weight: 300;
+	text-align: left;
+	-webkit-font-smoothing: antialiased;
+}
+
+#tabs_container {
+	margin-bottom: 2rem;
+}
+
+#tabs_content {
+	border: 1px solid;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+	background-color: #fff;
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.tab {
+	width: 24.629%;
+	font-weight: 500;
+	cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+	color: #898f9c;
+	border-left: 1px solid #e9e9e9;
+	display: inline-block;
+	padding: 1rem 0;
+	-webkit-transition: 0.1s;
+	-moz-transition: 0.1s;
+	transition: 0.1s;
+}
+
+.tab:hover {
+	color: inherit;
+}
+
+.hidden {
+	display: none;
+}
+
+.active {
+	color: inherit;
+}
+
+#first_desc {
+	border-left: none;
+}
+
+.desc {
+	border-left: 1px solid #e9e9e9;
+	font-weight: 300;
+	text-align: center;
+}
+
+#info_content_container {
+	margin: 0 auto;
+	margin-bottom: 0;
+	width: 90%;
+}
+
+#info_content2 {
+	color: #141823;
+	/* padding-bottom: 1rem; */
+	/* background: white; */
+	-webkit-border-radius: 3px;
+	/* border: 1px solid; */
+	/* border-color: #e5e6e9 #dfe0e4 #d0d1d5; */
+}
+
+.iframe {
+    margin: 10px;
+
+}
+
+.table_container {
+	padding: 1.5rem 2rem;
+	background: #fff;
+	margin-bottom: 2rem;
+}
+
+.success {
+	display: none;
+}
+
+.error {
+	display: visible;
+}
+
+#last {
+	margin-bottom: 0;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 2rem;
+}
+
+
+.changewidth {
+	width: 90% !important;
+	margin-bottom: 3rem;
+}
+
+td {
+    padding: .5rem 1.5rem;
+}
+
+#info_header {
+	font-size: 3.5em;
+	font-weight: 300;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 32px;
+}

@@ -1,0 +1,221 @@
+#sponsors_nav {
+	position: fixed !important;
+	top: 0;
+}
+
+#message_page {
+	position: relative;
+	background: #e9eaed;
+}
+
+#message_page_content {
+    padding: 7.75em 3.75em;
+
+    padding-bottom: 3.75em;
+}
+
+#message_content_container {
+	width: 60%;
+	position: relative;
+	background: #e9eaed;
+	color: #141823;
+}
+
+#message_content {
+	padding: 2em;
+	background: white;
+	border: 1px solid;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+#message_header {
+	font-size: 3em;
+	font-weight: 300;
+	margin: 0 auto;
+}
+
+#message_content p {
+	font-weight: 300;
+	line-height: 1.5em;
+}
+
+#packet_icon {
+	text-align: center;
+	position: absolute;
+	font-size: 20px;
+	top: 13em;
+	color: #898f9c;
+	font-weight: 500;
+	left: 20%;
+	margin-left: 1em;
+	z-index: 20;
+}
+
+#packet_icon b {
+	font-size: 1.2em;
+}
+
+#packet {
+	width: 100px;
+	height: 100px;
+}
+
+#packet_sidebar_container {
+	width: 40%;
+	float: right;
+	position: relative;
+}
+
+#packet_sidebar {
+	position: relative;
+}
+
+#packet_content {
+	width: 17em;
+	height: 21em;
+	background: #F8F5E1;
+	position: relative;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+	padding: 2em;
+	-webkit-border-radius: 3px;
+	margin: 0 auto;
+}
+
+#packet_page {
+    height: 5em;
+    text-align: center;
+    width: 15em;
+    background: white;
+    margin: 0 auto;
+    box-shadow:  0px 0px 2px rgba(0,0,0,0.3);
+    padding: 2em;
+    padding-bottom: 0;
+    font-weight: 700;
+    color: rgba(137, 143, 156, 0.5);
+    margin-top: 5em;
+    -webkit-transition: all 0.2s cubic-bezier(0.2,0.3,0.25,0.9);
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.95em;
+    text-transform: uppercase;
+}
+
+#packet_page:hover {
+	margin-top: 2em;
+	padding-bottom: 3em;
+}
+
+#packet_page hr {
+	margin: 1em 0;
+	color: rgba(137, 143, 156, 0.5);
+	border: 1px solid rgba(137, 143, 156, 0.4);
+}
+
+/********************************/
+
+/*** CURRENT PAGE ********/
+
+#current_page {
+	position: relative;
+	background: #e9eaed;
+}
+
+#current_content {
+	color: #141823;
+	padding: 3.75em;
+}
+
+#current_content_header {
+	font-size: 3em;
+	font-weight: 300;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.sponsor_category {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    background: white;
+    margin-bottom: 4em;
+    position: relative;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    border: 1px solid;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+#gold_content {
+	border-bottom: 5px solid #D9A441;
+}
+
+#silver_content {
+	border-bottom: 5px solid silver;
+}
+
+#bronze_content {
+	border-bottom: 5px solid #965A38;
+}
+
+.sponsor_item {
+    height: 13em;
+    width: 15em;
+    -webkit-border-radius: 3px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+}
+
+.sponsor_item_header {
+    height: 3em;
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    color: #898f9c;
+}	
+
+.sponsor_item_img {
+	width: 15em;
+	height: 9em;
+	padding-top: 1em;
+	margin: 0 auto;
+	display: block;
+}
+
+#kuwait_logo {
+	width: 10em;
+	height: 10em;
+}
+
+.category {
+	position: absolute;
+	bottom: 0;
+	right: 2em;
+}
+
+#bronze_category {
+	color: #965A38;
+}
+
+#silver_category {
+	color: silver;
+}
+
+.sponsors_subheader {
+	font-size: 2.5em;
+	font-weight: 300;
+	margin: 1em 0;
+	text-align: center;
+}
+
+#additional_sponsors {
+	font-weight: 300;
+	text-align: center;
+	line-height: 1.5em;
+	margin: 0 auto;
+}

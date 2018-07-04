@@ -1,0 +1,583 @@
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+    }
+
+
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 10px 16px; /* Increase vertical padding to match navbar links */
+      margin-left: 0px;
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+    .iconbar {
+      margin-top: 8px;
+      margin-right: 20px;
+    }
+
+    .logobar {
+      margin-top: 0px;
+      margin-right: 0px;
+    }
+
+    .icon {
+      margin-left: 15px;
+    }
+
+    /* GENERAL CSS [EVERYTHING ELSE]
+    -------------------------------------------------- */
+    .addsponsor {
+      color:white;
+      font-weight: bold;
+      text-shadow:
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+      color: white;
+      font-size: 20px;       
+    }
+    .bannerImage {
+      width: 100%;
+      height: auto;
+    }
+    .backgroundGuide {
+      text-align: center;
+      text-decoration: underline;
+      font-weight: bold;
+      font-size: 1em;
+    }
+    .chairEmail {
+      text-align: center;
+    }
+    .contactHR {
+      margin: 15px 0;
+      border: 0;
+      border-top: 1px solid #000000;
+      border-bottom: 1px solid #ffffff;
+    }
+    .committee-image {
+      width: 200px;
+      height: 200px;
+      border:4px solid white;
+    }
+    .committee-title {
+      margin-top:5px;
+      text-align: center;
+      text-shadow:
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+      color: #ffffff;
+    }
+    .committee-subtitle {
+      text-align: left;
+      margin-left: 25px;
+      color: #ffffff;
+    }
+    .committee-thumbnail {
+      background: rgba(255,255,255,0);
+      border: 0;
+      width: 250px;
+      height: 200px;
+      margin-top: 10px;
+    }
+    .crisis-committee-subtitle {
+      text-align: left;
+      margin-left: 155px;
+      color: white;      
+    }
+    .crisis-title {
+      margin-top:5px;
+      text-align: center;
+      text-shadow:
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+      color: #ffffff;
+      margin-right: 55px;      
+    }
+    .ddp {
+      margin-left: 30px;
+    }
+    .exploreThumbnail {
+      background: #ffffff;
+      width: 200px;
+      height: 200px;
+      margin-top: 30px;
+    }
+    .exploreThumbnail .image {
+      width: 200px;
+      height: 200px;
+    }
+    .grayLayer {
+      width: 200px;
+      height: 200px;
+      position:absolute; 
+      margin-top: -200px; 
+      background: rgb(205,201,201); 
+      opacity: .55;
+    }
+
+    }
+    .hiltonImg {
+      float:left; /* important */  
+      position:relative; /* important(so we can absolutely position the description div */  
+    }
+    .iconCheck {
+      opacity: 0;
+    }
+
+    .imageTitle {
+      margin-top: -100px;
+      color: #ffffff;
+      height: 40px;
+      width: 200px;
+      text-shadow:
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+      text-align: center;
+      font-family: "arial", Times, serif;
+      display: none;
+      position: absolute;
+    }
+    .inverse-polaroid {
+      padding: 4px;
+      background-color: rgba(255,255,255,0);
+      border: 1px solid #ccc;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+         -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);    
+    }
+    .hiltonImg .img-caption {
+      margin-top:-70px;
+      background:black; 
+      width:100%;
+      opacity:.8
+    }
+    .hiltonImg .imgcheck {
+      position:absolute; /* absolute position (so we can position it where we want)*/  
+      bottom:0px; /* position will be on bottom */  
+      left:0px;  
+      width:100%;  
+      /* styling below */  
+      background-color:black;  
+      font-family: 'tahoma';  
+      font-size:15px;  
+      color:white;  
+      opacity:0.6; /* transparency */  
+      filter:alpha(opacity=60); /* IE transparency */     
+    }
+    .hiltonImg .imgcheck .h4 {
+      padding:10px;  
+      margin:0px;  
+    }
+    .overlayImage {
+      width: 200px;
+      height: 200px;
+      position:absolute; 
+      margin-top: -200px; 
+      background: rgb(205,201,201); 
+      opacity: 0;
+    }
+
+    .mainDiv {
+      margin-top: 75px;
+    }
+    .mainLogo {
+      height: 200px;
+      width: auto;
+    }
+    .mutedTitle {
+      color: rgb(205,201,201);
+    }
+    .menuItem {
+      color: #999999;
+      padding-top: 123px;
+    }
+    .menuItem:hover {
+      color: white; 
+      text-decoration: none; 
+    }
+    .nolink {
+      color:#5a5a5a;
+      text-decoration: none;
+    }
+    .nolink:focus {
+      color:#5a5a5a;
+      text-decoration: none;
+    }
+    .nolink:hover {
+      color:#5a5a5a;
+      text-decoration: none;
+    }
+    .pageTitle {
+      text-align: center;
+    }
+    .positionName {
+      padding-left: 25px;
+      font-size: 15px;
+    }
+    .primaryWell{
+      background:#ffffff;
+      margin-top: 75px;
+    }
+    .registrationTable {
+      /*border-top: 1px solid #00EE00;*/
+    }
+    .registrationTable .earlyColumn {
+      text-align: center;
+      color: white;
+      font-size: 20px;      
+      font-weight: bold;
+      border: 0;  
+      
+    }
+    .registrationTable .lateColumn {
+      text-align: center;
+      color: white;
+      font-weight: bold;    
+      font-size: 20px;      
+      border: 0;
+      outline: 1.5px solid #00EE00;     
+      /*border: 1px solid black;*/
+
+    } 
+    .registrationTable .regularColumn {
+      text-align: center;
+      color: white;
+      font-size: 20px;      
+      font-weight: bold;
+      border: 0;      
+      /*border: 1px solid black;*/
+    }
+    .registrationTable .rowTitle {
+      text-align: center;
+      border: 0;
+      /*border: 1px solid black;*/
+      color: white;
+      font-weight: bold;
+    }
+    .registrationTable .tableTitle {
+      text-align: center;
+
+      /*border: 1px solid black;*/
+    }
+    .secretariatImage {
+      margin-top: -25px;
+      color: #ffffff;
+      height: 40px;
+      width: 200px;
+      text-shadow:
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+      text-align: center;
+      font-family: "arial", Times, serif;
+      display: none;
+      position: absolute;
+    }
+    .secretariatModalTitle {
+      text-align: center;
+    }
+    .secretariatTitle {
+      text-align: center;
+      color: white;
+      text-shadow:
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+    }
+    .scheduleDay {
+
+    }
+    .scheduleEvent {
+      margin-left: 70px;
+    }
+    .signature {
+      margin-left: 215px;
+    }
+
+    .socialHeader {
+    }
+
+    .socNoLink {
+      text-decoration: none;
+    }
+    .socNoLink:focus {
+      color: #0088cc;
+      text-decoration: none;
+    }
+    .socNoLink:hover {
+      color: #0088cc;
+      text-decoration: none;
+    }
+    .subtitle {
+      color: white;
+      text-shadow:
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;      
+    }
+    .wrapper{
+      float:left; /* important */
+      position:relative; /* important(so we can absolutely position the description div */
+    }
+    .description{
+      position:absolute; /* absolute position (so we can position it where we want)*/
+      bottom:0px; /* position will be on bottom */
+      left:0px;
+      width:100%;
+      /* styling below */
+      background-color:black;
+      font-family: 'tahoma';
+      font-size:15px;
+      color:white;
+      opacity:0.6; /* transparency */
+      filter:alpha(opacity=60); /* IE transparency */
+    }
+    .description_content{
+      padding:10px;
+      text-align: center;
+      margin:0px;
+    }
+    
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 650px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 6xf50px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 40px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 60px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette a {
+      text-decoration: none;
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }

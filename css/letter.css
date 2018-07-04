@@ -1,0 +1,75 @@
+#letter_page {
+	position: relative;
+	background: #e2e6e9;
+}
+
+#letter_content_container {
+    width: 60%;
+
+    position: relative;
+}
+
+#letter_page_content {
+	padding: 7.75em 3.75em;
+	padding-bottom: 3.75em;
+}
+
+#letter_content {
+	color: #2f353f;
+	background: white;
+	padding: 2em;
+	border: 1px solid;
+	-webkit-border-radius: 3px;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+#letter_header {
+	font-size: 3em;
+	font-weight: 300;
+	margin: 0 auto;
+}
+
+#letter_text {
+	font-weight: 300;
+	line-height: 1.5em;
+}
+
+#image_sidebar_container {
+    width: 40%;
+    float: right;
+    position: relative;
+}
+
+#image_sidebar {
+	margin: 0 auto;
+	width: 80%;
+}
+
+#akash_pic {
+	display: block;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+#image_desc {
+	font-size: 0.9em;
+	text-align: center;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: white;
+    z-index: 5;
+    border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background: #2F3855;
+}
+
+#image_desc_content {
+	padding: 1em;
+}
+
+#box_shadow {
+	border: 1px solid;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+	-webkit-border-radius: 3px;
+}
+

@@ -1,0 +1,214 @@
+#conf_page {
+	position: relative;
+	background: #e2e6e9;
+}
+
+#confpg_content {
+	color: #141823;
+	background: #e9eaed;
+	padding: 14em;
+	padding-top: 7.75em;
+	padding-bottom: 3.75em;
+	text-align: center;
+}
+
+#confpg_content_header {
+	font-size: 3.5em;
+	font-weight: 300;
+	margin: 0 auto;
+	margin-bottom: 0.5em;
+}
+
+.confpg_subheader {
+	font-size: 2em;
+	font-weight: 300;
+	margin: 0.5em 0 1em 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+.confpg_subheader_2 {
+	font-size: 2em;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+}
+
+.event_header_container {
+	font-size: 2em;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+}
+
+.event_tags_container {
+    display: inline-block;
+    float: right;
+}
+
+.event_tag {
+	margin-left: 1em;
+    float: left;
+	border: 1px solid #d0d1d5;
+	border-radius: 20px;
+	padding: 5px 30px;
+	font-size: 12px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	font-weight: 800;
+	color: #6a7480;
+}
+
+#view_button {
+	float: left;
+	margin-left: 1em;
+	color: #6a7480;
+}
+
+.day {
+	margin: 1em 0 !important;
+}
+
+#disclaimer {
+	margin-top: 2.5em;
+	color: #6a7480;
+	line-height: 1.5;
+	font-weight: 500;
+}
+
+.info {
+	margin-bottom: 0.5em;
+}
+.event_header {
+    display: inline-block;	
+    font-size: 0.8em;
+}
+
+#venue_img {
+	display: inline-block;
+	height: 300px;
+	width: 400px;
+	margin-right: 0.5em;
+	position: relative;
+	border-radius: 3px;
+}
+
+#hilton_pic {
+	border-radius: 3px;
+}
+
+#venue_container {
+	margin-bottom: 3em;
+}
+
+#venue_desc_container, .event_container {
+	background: white;
+    margin: 0 auto;
+    margin-bottom: 3em;
+    padding:  1em 2em;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1.5;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+.event_container {
+	cursor: pointer;
+	margin-bottom: 0.5em !important;
+}
+
+#venue_overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,0.5);
+}
+
+#venue_overlay_content {
+    padding: 0 1.5em;
+    line-height: 50px;
+    color: white;
+    text-align: left;
+}
+
+#venue_map {
+	display: inline-block;
+	height: 300px;
+	width: 400px;
+	margin-left: 0.5em;
+}
+
+.confpg_section {
+	margin: 0 auto;
+}
+
+#explore_container {
+	height: 400px;
+	position: relative;
+}
+
+.event_desc {
+	font-weight: 300;
+	line-height: 1.5; 
+	border-top: solid 1px #d0d1d5;
+	padding-top: 1em;
+	display: none;
+}
+
+.schedsec_container {
+    background: white;
+    padding: 1em 2em;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    font-weight: 300;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.schedsec_header {
+    color: #898f9c;
+    margin-bottom: 1em;
+}
+
+.schedsec_header_desc {
+    display: inline-block;
+ 	text-transform: uppercase;
+    font-weight: 700;
+}
+
+.schedsec_header_time {
+    float: right;
+    margin-right: 3.5em;
+    display: inline-block;
+}
+
+.schedsec_item_container {
+
+}
+
+.schedsec_item {
+    line-height: 2em;
+    border-bottom: 1px solid #e9eaed;
+    padding: 0.5em 0;
+
+}
+
+.schedsec_item_desc {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.schedsec_item_time {
+    float: right;
+    display: inline-block;
+}
+
+@font-face {
+    font-family:FontAwesome;
+    src:url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.eot?#iefix) format('eot'),
+	url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.woff) format('woff'),
+	url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.ttf) format('truetype'),
+	url(https://netdna.bootstrapcdn.com/font-awesome/2.0/font//fontawesome-webfont.svg#FontAwesome) format('svg');
+    font-weight:400;font-style:normal;
+}
+

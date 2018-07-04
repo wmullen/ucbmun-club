@@ -1,0 +1,151 @@
+#committees_page {
+	position: relative;
+	background: #e2e6e9;
+}
+
+#committeespg_content {
+	color: #141823;
+	background: #e9eaed;
+	padding-top: 7.75em;
+	padding-bottom: 0.75em;
+	text-align: center;
+}
+
+#committeespg_content_header {
+	font-size: 3.5em;
+	font-weight: 400;
+	margin: 0 auto;
+	margin-bottom: 0.5em;
+}
+
+.committeespg_subheader {
+	font-size: 2em;
+	font-weight: 300;
+	margin: 0.5em 0 1em 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+.committeespg_section {
+	margin: 0 auto;
+}
+
+.com_item_container {
+	margin: 0 1.5em;
+	display: inline-block;
+	width: 280px;
+	margin-bottom: 3em;
+	height: 230px;
+	position: relative;
+	cursor: pointer;
+	border: 1px solid;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+	-webkit-border-radius: 3px;
+	overflow: hidden;
+}
+
+.com_item {
+	width: 280px;
+	height: 180px;
+    position: relative;
+	border-top-left-radius: 2px; 
+	overflow: hidden;
+	border-top-right-radius: 2px;
+	background: white;
+}
+
+.com_item_img_content {
+	width: 280px;
+	height: 180px;
+	text-align: center;
+}
+
+.com_item_content {
+	padding: 10px;
+	font-weight: 500;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	z-index: 10;
+	width: 260px;
+	background: #f6f7f8;
+	color: #161D38;
+	line-height: 30px;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	font-size: 0.95em;
+	-webkit-transition: all 0.3s cubic-bezier(0.2,0.3,0.25,0.9);
+	-webkit-font-smoothing: antialiased;
+	border-top: 1px solid #e1e2e3;
+}
+
+.modal {
+	position: absolute;
+	height: 44px;
+	width: 49px;
+	z-index: 10;
+	background: #f6f7f8;
+	opacity: 1;
+	border-bottom-left-radius: 2px;
+	border-top-right-radius: 2px;
+	-webkit-transition: all 0.2s cubic-bezier(0.2,0.3,0.25,0.9);
+	top: -45px;
+	right: 0;
+	border-left: 1px solid #e1e2e3;
+	border-bottom: 1px solid #e1e2e3;
+}
+
+.view_icon {
+	margin-bottom: -5px;
+}
+
+.test {
+	display: none;
+	height: 100%;
+}
+
+.modal_content {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	font-size: 1.4em;
+	letter-spacing: 0.1em;
+	font-weight: 300;
+}
+
+.modal_vertical {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.stretch {
+	width: auto !important;
+	height: 85% !important;
+	padding: 5% 0;
+}
+
+#alcatraz_modal {
+	height: 500px;
+	width: 500px;
+	background-color: black;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
